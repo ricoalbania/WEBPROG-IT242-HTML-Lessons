@@ -1,8 +1,13 @@
 body {
-  background-color: rgb(152, 224, 134);
+  background-color: rgb(102, 157, 88);
 }
 
 h1 {
   color: rgb(82, 104, 81);
   text-align: center;
+
+.center {
+    text-align: center;
+    color: rgb(82, 104, 81);
+}
 }
