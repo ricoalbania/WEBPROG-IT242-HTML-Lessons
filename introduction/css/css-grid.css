@@ -28,9 +28,14 @@
   text-align: center;  
 }
 
+
 img {
   border-radius: 20px;
-  display: block;
+  display: block; 
+}
+
+
+.centered-img {
   margin-left: auto;
   margin-right: auto;
 }
