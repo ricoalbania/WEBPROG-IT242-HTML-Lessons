@@ -3,7 +3,7 @@
 }
 
 body {
-  font-family: "Lucida Sans", sans-serif;
+  font-family: "Arial", sans-serif;
   font-size: 17px;
 }
 
@@ -15,13 +15,13 @@ body {
     'main'
     'facts'
     'footer';
-  background-color: white;
+  background-color: rgb(182, 208, 226	);
   gap: 10px;  
 }
 
 .header {
   grid-area: header;
-  background-color: purple;
+  background-color: rgb(111, 143, 175	);
   text-align: center;
   color: #ffffff;
 }
@@ -30,27 +30,6 @@ body {
   font-size: 40px;
 }
 
-.menu {
-  grid-area: menu;
-  }
-  
-.menu ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
-
-.menu li {
-  padding: 8px;
-  margin-bottom: 7px;
-  background-color: #33b5e5;
-  color: #ffffff;
-}
-
-.menu li:hover {
-  background-color: #0099cc;
-}
-  
 .content {
   grid-area: main;
 }
@@ -67,7 +46,7 @@ body {
 .facts {
   grid-area: facts;
   border: 1px solid #0099cc;
-  background-color: beige;
+  background-color: rgb(240, 255, 255	);
   padding: 10px;
 }
 
@@ -81,14 +60,13 @@ body {
 
 .footer {
   grid-area: footer;
-  background-color: #0099cc;
+  background-color: rgb(111, 143, 175	);
   color: #ffffff;
   text-align: center;
 }
 
 @media (min-width: 600px) {
   .header {grid-area: 1 / span 6;}
-  .menu {grid-area: 2 / span 1;}
   .content {grid-area: 2 / span 4;}
   .facts {grid-area: 3 / span 6;}
   .footer {grid-area: 4 / span 6;}
@@ -96,8 +74,12 @@ body {
 
 @media (min-width: 768px) {
   .header {grid-area: 1 / span 6;}
-  .menu {grid-area: 2 / span 1;}
   .content {grid-area: 2 / span 4;}
   .facts {grid-area: 2 / span 1;}
   .footer {grid-area: 3 / span 6;}
+}
+
+.centered-img {
+  margin-left: auto;
+  margin-right: auto;
 }
