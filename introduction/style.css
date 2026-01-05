@@ -1,5 +1,4 @@
-  <style>
-/* General Page Styling */
+
 body {
   background-color: #F4F1DE;
   color: #3D405B; 
@@ -44,7 +43,7 @@ h2 {
   margin-bottom: 25px;
 }
 
-/* --- Resource Card Styling --- */
+
 .resource-card {
   border: none;
   border-radius: 12px;
@@ -85,4 +84,3 @@ h2 {
 
 .brand-github:hover { border-bottom: 5px solid #24292e; }
 .brand-github i { color: #24292e; }
-  </style>
